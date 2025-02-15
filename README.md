@@ -1,5 +1,7 @@
 # langchain-discord
 
+[![PyPI version](https://badge.fury.io/py/langchain-discord-shikenso.svg)](https://pypi.org/project/langchain-discord-shikenso/)
+
 This package provides Discord tools and a toolkit for use with LangChain. It includes:
 
 - **`DiscordReadMessages`**: Read messages from a given Discord channel.
@@ -11,7 +13,7 @@ This package provides Discord tools and a toolkit for use with LangChain. It inc
 ## Installation
 
 ```bash
-pip install -U langchain-discord
+pip install -U langchain-discord-shikenso
 ```
 
 ---
