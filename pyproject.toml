@@ -3,12 +3,12 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "langchain-discord"
-version = "0.1.0"
+name = "langchain-discord-shikenso"
+version = "1.1.0"
 description = "An integration package connecting Discord and LangChain"
-authors = []
+authors = ["Wahed Hemati <wahed.hemati@shikenso.com>"]
 readme = "README.md"
-repository = "https://github.com/langchain-ai/langchain"
+repository = "https://github.com/Shikenso-Analytics/langchain-discord"
 license = "MIT"
 
 [tool.mypy]
@@ -19,8 +19,8 @@ packages = [
 ]
 
 [tool.poetry.urls]
-"Source Code" = "https://github.com/langchain-ai/langchain/tree/master/libs/partners/discord"
-"Release Notes" = "https://github.com/langchain-ai/langchain/releases?q=tag%3A%22discord%3D%3D0%22&expanded=true"
+"Source Code" = "https://github.com/Shikenso-Analytics/langchain-discord"
+"Release Notes" = "https://github.com/Shikenso-Analytics/langchain-discord/releases"
 
 [tool.poetry.dependencies]
 python = ">=3.9,<4.0"
