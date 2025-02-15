@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "langchain-discord-shikenso"
-version = "1.1.0"
+version = "1.1.2"
 description = "An integration package connecting Discord and LangChain"
 authors = ["Wahed Hemati <wahed.hemati@shikenso.com>"]
 readme = "README.md"
