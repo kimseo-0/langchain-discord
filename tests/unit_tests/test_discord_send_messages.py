@@ -40,7 +40,4 @@ class TestDiscordSendMessageUnit(ToolsUnitTests):
           - message: str
           - channel_id: str
         """
-        return {
-            "message": "Hello from unittests!",
-            "channel_id": "1234567890"
-        }
+        return {"message": "Hello from unittests!", "channel_id": "1234567890"}
