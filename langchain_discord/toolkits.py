@@ -8,6 +8,7 @@ from langchain_core.tools import BaseTool, BaseToolkit
 from .tools.discord_read_messages import DiscordReadMessages
 from .tools.discord_send_messages import DiscordSendMessage
 from .tools.discord_send_embed import DiscordSendEmbedMessage
+from .tools.discord_webhook import DiscordWebhookTool
 
 
 class DiscordToolkit(BaseToolkit):
@@ -78,4 +79,5 @@ class DiscordToolkit(BaseToolkit):
             DiscordReadMessages(),
             DiscordSendMessage(),
             DiscordSendEmbedMessage(),
+            DiscordWebhookTool(),
         ]
