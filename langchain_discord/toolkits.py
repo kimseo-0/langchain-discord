@@ -7,6 +7,7 @@ from langchain_core.tools import BaseTool, BaseToolkit
 # Import your tools from the newly split files
 from .tools.discord_read_messages import DiscordReadMessages
 from .tools.discord_send_messages import DiscordSendMessage
+from .tools.discord_send_embed import DiscordSendEmbedMessage
 
 
 class DiscordToolkit(BaseToolkit):
@@ -76,4 +77,5 @@ class DiscordToolkit(BaseToolkit):
         return [
             DiscordReadMessages(),
             DiscordSendMessage(),
+            DiscordSendEmbedMessage(),
         ]
